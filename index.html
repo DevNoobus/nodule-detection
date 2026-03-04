@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Image Scanner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="controls">
+    <button id="importBtn">Import Image</button>
+    <input type="range" id="confidenceSlider" min="0" max="1" step="0.01" value="0.5">
+    <button id="replaceBtn">Replace Image</button>
+    <button id="exportBtn">Export Image</button>
+  </div>
+  <canvas id="canvas"></canvas>
+  <script src="renderer.js"></script>
+</body>
+</html>
